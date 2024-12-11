@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;
+}
+
+div .author{
+    height: 200px;
+    width: 200px;
+    display: flex;
+}

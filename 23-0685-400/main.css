@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a {
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+nav a:hover, 
+nav a.active{
+    color: #0d98ba;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: left;
+    background-color: black;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+section h2{
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 100px;
+    color: white;
+   
+}
+section p{
+    text-align: justify;
+    color: white;
+    position: absolute;
+    padding-top: 250px;
+    padding-left: 100px;
+}
+span{
+    display: block;
+}
+.list{
+    margin:10px;
+    text-align: justify;
+    color: white;
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 100px;
+    line-height: 4em;
+}
+#about {
+    background-color: rgb(22, 22, 22);
+}
+#learning{
+    background-color: rgb(22, 22, 22); 
+}
+.dt{
+    color: white;
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 100px;
+    line-height: 4em;
+    
+
+
+
+}
+
